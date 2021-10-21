@@ -1,3 +1,8 @@
+@media(max-width:1160px){
+    .img_titles{
+        transform: translateX(0);
+    }
+}
 @media(max-width:800px){
     .list{
         flex-direction: column;
@@ -26,10 +31,26 @@
         color:#85CCDC;
 
     }
-    
+    .catalog{
+        padding: 40px;
+    }
+    .intro{
+        padding: 40px;
+    }
+        .section_title{
+            margin-bottom: 50px;
+        }
+        .section{
+            padding: 50px;
+        }
+        
 }
 @media(max-width:1200px){
     .header{
         background-position: center;
+    }
+    .cata_text{
+        width: 100%;
+        
     }
 }
