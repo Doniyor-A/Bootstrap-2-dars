@@ -190,6 +190,18 @@ padding: 100px 0px 104px 0px;
    
     
 }
+.intro_item-02::after{
+    content: '02';
+}
+.intro_item-03::after{
+    content: '03';
+}
+.intro_item-04::after{
+    content: '04';
+}
+.intro_item-05::after{
+    content: '05';
+}
 .intro_item:hover::after{
   top:-45%;
 }
